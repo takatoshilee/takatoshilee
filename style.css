@@ -1,0 +1,435 @@
+/* Add background to the body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121E27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Add background box */
+.background-box {
+  width: 1920px;
+  height: 1052px;
+  background-color: #121E27;
+  margin-top: 10px; /* Set the top margin to 10px */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121E27;
+  color: #fff;
+  height: 60px;
+  padding: 0px 0px 0px 20px;
+}
+
+/* Navbar left (logo) styles */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500; /* Semi-bold */
+  line-height: 32px;
+}
+
+/* Navbar right (links and icons) styles */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right a {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  margin-right: 25px; /* Increase margin to 25px */
+  position: relative; /* To make sure the line stays relative to the link */
+}
+
+/* Line below the texts on hover */
+.navbar-right a:not(.icon-link) {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+/* First line for the hover effect */
+.navbar-right a:not(.icon-link)::after {
+  content: "";
+  position: absolute;
+  bottom: -4px; /* Initially hide the line below the text */
+  left: 0;
+  width: 100%; /* Make the line the same width as the text */
+  height: 2px; /* Set the line thickness to 2px */
+  background-color: #FF715B;
+}
+
+/* Second line for the hover effect */
+.navbar-right a:not(.icon-link)::before {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Initially hide the second line below the text */
+  left: 0;
+  width: 100%; /* Make the line the same width as the text */
+  height: 2px; /* Set the line thickness to 2px */
+  background-color: #FF715B;
+  transform: translateY(0); /* Set the initial transform to 0 */
+  transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+/* Move the second line down on hover */
+.navbar-right a:not(.icon-link):hover::before {
+  transform: translateY(4px); /* Move the second line down 4px on hover */
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+/* GitHub icon CSS */
+.github-icon {
+  position: relative;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #ffffff;
+}
+
+body.dark-mode .navbar {
+  background-color: #ffffff;
+  color: #121e27;
+}
+
+body.dark-mode .navbar-right a:not(.icon-link) {
+  color: #121e27;
+}
+
+/* Invert colors for the icons and logo in dark mode */
+body.dark-mode .icon-link svg path,
+body.dark-mode .logo {
+  fill: black; /* Set the fill color to black for the icons and logo in dark mode */
+}
+
+/* Invert colors for the dark mode button */
+body.dark-mode .mode-button svg path.dark-path {
+  fill: none; /* Set the fill color to none for the dark mode path in dark mode */
+  opacity: 0.1; /* Set the opacity to 0.1 for the dark mode path in dark mode */
+}
+
+body.dark-mode .mode-button svg path.light-path {
+  fill: #fff; /* Set the fill color to white for the light mode path in dark mode */
+}
+
+/* Specific fill color for the last icon in dark mode */
+body.dark-mode .mode-button.github-icon svg path {
+  fill: black;
+}
+
+/* Logo fill color in dark mode */
+body.dark-mode .logo {
+  color: black;
+}
+
+/* Add background box */
+.background-box {
+  width: 1920px;
+  height: 1052px;
+  background-color: #121E27;
+  margin-top: 10px; /* Set the top margin to 10px */
+}
+body.dark-mode .background-box {
+  background: #fff; /* Dark mode heading color */
+}
+
+/* Content box styles */
+.content-box {
+  display: flex;
+  flex-direction: column; /* Stack the headings vertically */
+  max-width: 1400px; /* Optional: Set a maximum width for larger screens */
+  margin: 20px 20px 0px 20px; /* 100px from the top, centered horizontally */
+  justify-content: center;
+  align-items: flex-start;
+  background: #0D151C; /* Light mode background color */
+  padding: 50px 40px; /* Add some padding to the content box */
+  gap: 0px;
+}
+
+body.dark-mode .content-box {
+  background: #F1F5F9; /* Dark mode background color */
+}
+
+/* Heading styles */
+h1 {
+  color: #FFF; /* Light mode heading color */
+  font-family: Inter;
+  font-size: 35.4px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43.68px; /* 123.39% */
+  letter-spacing: 9.9px;
+  text-transform: uppercase;
+  margin: 0; /* Remove default margins for h1 */
+  margin-bottom: 10px; /* Remove default margins for h1 */
+}
+
+body.dark-mode h1 {
+  color: #000; /* Dark mode heading color */
+}
+
+h2 {
+  color: #FFF; /* Light mode heading color */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  margin: 0; /* Remove default margins for h2 */
+  margin-bottom: 20px; /* Remove default margins for h1 */
+}
+
+body.dark-mode h2 {
+  color: #000; /* Dark mode heading color */
+}
+
+h3 {
+  width: 463px; /* Fixed width for h3 */
+  color: #FFF; /* Light mode heading color */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin: 0; /* Remove default margins for h3 */
+  margin-bottom: 20px; /* Remove default margins for h1 */
+}
+
+body.dark-mode h3 {
+  color: #000; /* Dark mode heading color */
+}
+
+h4 {
+  color: #FFF; /* Light mode heading color */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin: 0; /* Remove default margins for h4 */
+  display: flex; /* Add flex display to enable aligning the SVG icon */
+  align-items: center; /* Align the SVG icon vertically with the text */
+}
+body.dark-mode h4 {
+  color: #000; /* Dark mode heading color */
+}
+
+/* Style the SVG icon within h4 */
+h4 svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 5px; /* Add some spacing between the text and the icon */
+  fill: #FFF; /* Make the icon white initially */
+}
+
+/* Dark mode styles for the arrow icons in h4 elements */
+body.dark-mode h4 svg path {
+  fill: #000; /* Set the arrow icon fill color to black in dark mode */
+}
+h2,
+h3,
+.learn-more {
+  margin-bottom: 30px;
+}
+
+
+/* Create a stack of horizontal icons with 24px between them */
+.icon-stack {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.icon-stack li {
+  margin-right: 24px;
+}
+
+/* Remove the right margin from the last icon */
+.icon-stack li:last-child {
+  margin-right: 0;
+}
+
+.icon-stack li svg path {
+  fill: #fff;
+}
+
+/* SVG icon fill color in dark mode */
+body.dark-mode .icon-stack li svg path {
+  fill: #000;
+}
+
+/* Styles for the h5 title */
+h5 {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 127.273% */
+  margin: 70px 0 0 20px; /* 100px from the top, centered horizontally */
+}
+
+/* Dark mode styles for the h5 title */
+body.dark-mode h5 {
+  color: #000;
+}
+
+/* Styles for the section header */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Dark mode styles for the "View all" text */
+body.dark-mode .view-all-text {
+  color: #000;
+}
+
+/* Dark mode styles for the arrow icon */
+body.dark-mode .arrow-icon path {
+  fill: #000;
+}
+
+
+/* Right-align the "View all" text */
+.card-image {
+  padding: 20px 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add this line */
+  margin-bottom: 60px;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all-text,
+.read-more {
+  /* Styles for the "Read more" text */
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  margin-top: 70px;
+}
+
+.arrow-icon {
+  /* Styles for the arrow icon */
+  fill: #fff;
+  margin-top: 70px;
+  margin-left: 5px;
+}
+
+.cards-container {
+  /* Add styles for the container that holds the cards */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  /* Add styles for the card */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0px 20px 0px 20px;
+}
+
+.card-image {
+  /* Add styles for the image container */
+  width: 47%;
+  height: 100%;
+  margin-right: 6%;
+  border: 1px solid #ccc;
+}
+
+.card-image img {
+  /* Add styles for the image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-texts {
+  /* Add styles for the text container */
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  /* Add styles for the title */
+  color: #171717;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px; /* Adjust the line-height as needed */
+  margin-top: 24px;
+  max-height: 64px; /* Limit to two lines (2 * line-height) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 12px; /* Adjust the margin-top as needed */
+  margin-bottom: 0px; /* Adjust the margin-bottom as needed */
+}
+
+.card-description {
+  /* Add styles for the description */
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px; /* Adjust the line-height as needed */
+  max-height: 135px; /* Limit to six lines (6 * line-height) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0px; /* Adjust the margin-top as needed */
+  margin-bottom: 12px; /* Adjust the margin-bottom as needed */
+}
+
+
+.read-more-container {
+  /* Styles for the container holding "Read more" text and the arrow icon */
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
