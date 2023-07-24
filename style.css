@@ -7,15 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #121E27;
 }
 
-/* Add background box */
-.background-box {
-  width: 1920px;
-  height: 1052px;
-  background-color: #121E27;
-  margin-top: 10px; /* Set the top margin to 10px */
-}
+
 
 /* Navbar styles */
 .navbar {
@@ -151,8 +146,6 @@ body.dark-mode .logo {
 
 /* Add background box */
 .background-box {
-  width: 1920px;
-  height: 1052px;
   background-color: #121E27;
   margin-top: 10px; /* Set the top margin to 10px */
 }
@@ -292,11 +285,12 @@ h5 {
   align-items: center;
   color: #FFF;
   font-family: Inter;
-  font-size: 22px;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 28px; /* 127.273% */
   margin: 70px 0 0 20px; /* 100px from the top, centered horizontally */
+  z-index: 1; /* Ensure the <h5> is above the highlight */
 }
 
 /* Dark mode styles for the h5 title */
@@ -324,7 +318,6 @@ body.dark-mode .arrow-icon path {
 
 /* Right-align the "View all" text */
 .card-image {
-  padding: 20px 0;
 }
 
 .top {
@@ -356,21 +349,15 @@ body.dark-mode .arrow-icon path {
   fill: #fff;
   margin-top: 70px;
   margin-left: 5px;
+  margin-right: 20px;
 }
 
-.cards-container {
-  /* Add styles for the container that holds the cards */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
 
 .card {
   /* Add styles for the card */
   height: 300px;
   display: flex;
   align-items: center;
-  padding: 10px;
   box-sizing: border-box;
   margin: 0px 20px 0px 20px;
 }
@@ -399,31 +386,76 @@ body.dark-mode .arrow-icon path {
   justify-content: space-between;
 }
 
+.card-text-overlay {
+  color: #FFF;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  letter-spacing: 1.6px;
+
+
+ 
+}
+
+body.dark-mode .card-text-overlay  {
+  color: #000;
+}
 .card-title {
   /* Add styles for the title */
-  color: #171717;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28px; /* Adjust the line-height as needed */
-  margin-top: 24px;
-  max-height: 64px; /* Limit to two lines (2 * line-height) */
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 28px;
+  max-height: 64px;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 12px; /* Adjust the margin-top as needed */
-  margin-bottom: 0px; /* Adjust the margin-bottom as needed */
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+body.dark-mode .card-title {
+  color: #000;
 }
 
 .card-description {
   /* Add styles for the description */
-  color: #475569;
+  color: #FFF;
   font-size: 15px;
   font-weight: 400;
-  line-height: 20px; /* Adjust the line-height as needed */
-  max-height: 135px; /* Limit to six lines (6 * line-height) */
+  line-height: 30px;
+  max-height: 135px;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 0px; /* Adjust the margin-top as needed */
-  margin-bottom: 12px; /* Adjust the margin-bottom as needed */
+  margin-bottom: 12px;
+  font-family: Inter, sans-serif;
+}
+body.dark-mode .card-description  {
+  color: #000;
+}
+
+.tech-stack {
+  /* Styles for the tech stack container */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.tech-card {
+  /* Styles for each tech card */
+  font-family: Muli, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 4px 10px;
+  color: #000;
+  background-color: #fffffff9;
+}
+
+body.dark-mode .tech-card  {
+  background-color: #121E27;
+  color: #fff;
 }
 
 
@@ -432,4 +464,581 @@ body.dark-mode .arrow-icon path {
   display: flex;
   align-items: center;
   margin-top: 8px;
+}
+
+
+
+
+
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px; /* Add some space below the text for the underline */
+}
+
+.highlight-text::before {
+  content: "";
+  position: absolute;
+  bottom: -1px; /* Start 10px above the text */
+  left: 5px; /* Move it 3px to the left to start from the initial text's position */
+  width: 100%; /* Add 3px to cover the text's width */
+  height: 20px; /* Thicker vertically */
+  background-color: #FF715B;
+  transform-origin: bottom left;
+  transform: scaleX(1); /* Initially shown */
+  transition: transform 0.3s ease-out;
+  z-index: -1; /* Ensure the <h5> is above the highlight */
+}
+
+.highlight-text:hover::before {
+  transform-origin: left; /* Compress from the right */
+  transform: scaleX(0.33); /* Compress to 1/3 of the original width */
+}
+
+
+
+.button-container {
+  display: inline-block;
+  position: relative;
+  bottom: 50px
+}
+
+.button {
+  display: flex;
+  width: 207.06px;
+  height: 33.6px;
+  justify-content: center;
+  align-items: center;
+  background: #FF715B;
+  padding: 15px 40px;
+  transition: transform 0.3s ease-out; /* Add transition for the hover effect */
+  position: absolute;
+  z-index: 2; /* Set a higher z-index for the button to appear above the frame */
+}
+
+.button-text {
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 19.2px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+
+.button-frame {
+  display: flex;
+  width: 211.06px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 2px solid #FFF;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1; /* Set a lower z-index for the frame to keep it behind the button */
+}
+body.dark-mode .button-frame  {
+  border: 2px solid #000;
+}
+
+.button-container:hover .button {
+  transform: translate(12px, 12px); /* Move the button right and down on hover */
+}
+
+
+.vertical-cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.vertical-cards .button-container {
+  margin-top: 100px;
+}
+
+.projects {
+  
+}
+
+/* Styles for the bullet points */
+.bullet {
+  /* Remove these styles as they are not needed for the <li> element */
+  /* width: 282.11px; */
+  /* height: 21px; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* flex-shrink: 0; */
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin: 10px 0 0 20px; /* 100px from the top, centered horizontally */
+}
+
+/* Make the text inside the <li> white */
+.bullet li {
+  color: #FFF;
+}
+
+
+.section {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  width: 282.11px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+
+.year {
+  display: flex;
+  width: 153px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 215.385% */
+}
+
+.description {
+  width: 500px;
+  height: 140px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 215.385% */
+}
+
+
+/* Add a new class to the parent container for the awards and education sections */
+.awards-education-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between the two columns as needed */
+}
+
+/* Add a new class to the parent container for the awards and education sections */
+.awards-education-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between the two columns as needed */
+}
+
+/* Style for the awards section */
+.awards {
+  flex: 0 0 47%; /* Adjust the width of the awards section as needed */
+}
+
+/* Style for the education section */
+.education {
+  flex: 0 0 47%; /* Adjust the width of the education section as needed */
+}
+
+/* Style for the bullet points */
+ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+li.bullet {
+  word-wrap: break-word; /* Ensures long words wrap instead of overflow */
+  max-width: 100%; /* Set a maximum width for the li element */
+}
+
+/* Ensure text inside the .section class wraps */
+.section {
+  word-wrap: break-word;
+}
+
+/* Additional styles for consistency */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Additional styles for h5 elements */
+h5 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+
+
+.description2 {
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 215.385% */
+  text-align: justify;
+}
+
+
+li.bullet {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  margin-bottom: 10px; /* Add some spacing between bullet points */
+}
+
+.bullet-circle {
+  /* Bullet point circle styles */
+  flex-shrink: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #60A5FA;
+  margin-right: 10px; /* Adjust the space between the circle and text */
+}
+
+.bullet-text {
+  /* Styles for the "THIS TEXT" */
+  display: flex;
+  width: 282.11px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+
+/* General styles for the work experience section */
+.work-experience {
+  font-family: Arial, sans-serif;
+  color: #313131;
+}
+
+/* Styles for the job entry container */
+.job-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+/* Styles for the job details (job heading and time period) */
+.job-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.job-heading {
+  display: flex;
+  width: 200.76px;
+  height: 31px;
+  flex-direction: column;
+  color: #313131;
+  text-align: right;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 136.364% */
+}
+
+.time-period {
+  display: flex;
+  width: 185px;
+  height: 17px;
+  flex-direction: column;
+  justify-content: center;
+  color: #888;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+/* Styles for the job icon */
+.job-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.job-icon svg {
+  width: 15.02px;
+  height: 15px;
+  /* Add any additional styles for your SVG icon */
+}
+
+/* Styles for the company, line, and job description */
+.company {
+  display: flex;
+  width: 177px;
+  height: 27px;
+  flex-direction: column;
+  justify-content: center;
+  color: #11ABB0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+
+.line {
+  width: 50px;
+  height: 3px;
+  background: #FFF;
+  margin: 20px 0 20px;
+}
+
+.job-description {
+  display: flex;
+  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #838C95;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+  text-align: justify;
+  max-width: calc(100% - 50px); /* Set max-width with a margin of 20px from the right */
+}
+
+
+.job-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.job-icon-container {
+  position: relative;
+}
+
+/* Styles for the black circle behind the job icon */
+.job-icon-circle {
+  position: absolute;
+  top: -12px; /* Adjust the vertical position as needed */
+  left: -12px; /* Adjust the horizontal position as needed */
+  width: 40px;
+  height: 40px;
+  background: #920000;
+  border-radius: 50%;
+  z-index: -1; /* Place the circle behind the icon */
+}
+
+/* Styles for the job icon */
+.job-icon-container svg {
+  position: relative;
+  width: 15.02px;
+  height: 15px;
+  fill: white;
+  z-index: 1; /* Place the icon above the black circle */
+}
+
+/* Styles for the footer */
+.footer {
+  display: flex;
+  padding: 32px ;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #121E27;
+}
+
+/* Styles for the left section */
+.left-section {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+/* Styles for the copyright text */
+.copyright {
+  color: #B7B4B9;
+  font-family: Inter;
+  font-size: 11.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+/* Styles for the footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 32px;
+  justify-items: center;
+  align-items: flex-start;
+  background: #121E27;
+}
+
+/* Styles for the middle section */
+.middle-section {
+  color: #C7C7C7;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the pages */
+.pages {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+/* Styles for the individual pages */
+.page {
+  color: #FF715B;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+/* Styles for the Get in touch text */
+.get-in-touch {
+  margin-bottom: 16px;
+  color: #C7C7C7;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the right section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+
+
+
+/* Styles for the right section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center; /* Align the content to the center */
+}
+
+
+/* Styles for the links text */
+.links {
+  margin-bottom: 16px;
+}
+
+/* Styles for the individual pages */
+.page {
+  color: #FF715B;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 24px;
+}
+
+
+/* Existing styles for other sections... */
+
+/* Styles for the right section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Styles for the pages */
+.pages {
+  display: table;
+  margin-bottom: 16px;
+}
+
+/* Styles for the individual pages */
+.pages td {
+  color: #FF715B;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-right: 24px;
+}
+
+/* Additional styles for the right class alignment */
+.pages td.left {
+  padding-right: 8px;
+}
+
+.pages td.right {
+  padding-right: 24px;
+}
+
+
+/* Styles for the SVG icons */
+.right-section a {
+  width: 28px;
+  height: auto;
+  flex-shrink: 0;
+  fill: #FFF;
+}
+
+.icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 16px;
 }
