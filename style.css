@@ -12,15 +12,19 @@ body {
 
 
 
-/* Navbar styles */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #121E27;
-  color: #fff;
+  background-color: #121E27; /* Set the background color to match the footer */
+  color: #121E27;
   height: 60px;
   padding: 0px 0px 0px 20px;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Make the navbar span the full width of the viewport */
+  z-index: 9999; /* Set a high z-index to make sure it's on top of other elements */
+  
 }
 
 /* Navbar left (logo) styles */
@@ -157,8 +161,7 @@ body.dark-mode .background-box {
 .content-box {
   display: flex;
   flex-direction: column; /* Stack the headings vertically */
-  max-width: 1400px; /* Optional: Set a maximum width for larger screens */
-  margin: 20px 20px 0px 20px; /* 100px from the top, centered horizontally */
+  margin: 80px 20px 0px 20px; /* 100px from the top, centered horizontally */
   justify-content: center;
   align-items: flex-start;
   background: #0D151C; /* Light mode background color */
@@ -291,6 +294,7 @@ h5 {
   line-height: 28px; /* 127.273% */
   margin: 70px 0 0 20px; /* 100px from the top, centered horizontally */
   z-index: 1; /* Ensure the <h5> is above the highlight */
+  padding-bottom: 4px;
 }
 
 /* Dark mode styles for the h5 title */
@@ -316,9 +320,6 @@ body.dark-mode .arrow-icon path {
 }
 
 
-/* Right-align the "View all" text */
-.card-image {
-}
 
 .top {
   display: flex;
@@ -377,6 +378,8 @@ body.dark-mode .arrow-icon path {
   object-fit: cover;
 }
 
+
+
 .card-texts {
   /* Add styles for the text container */
   width: 47%;
@@ -394,9 +397,6 @@ body.dark-mode .arrow-icon path {
   font-weight: 400;
   line-height: 28px; /* 186.667% */
   letter-spacing: 1.6px;
-
-
- 
 }
 
 body.dark-mode .card-text-overlay  {
@@ -413,6 +413,37 @@ body.dark-mode .card-text-overlay  {
   text-overflow: ellipsis;
   margin-top: 12px;
   margin-bottom: 20px;
+}
+
+.Vcard-title {
+  /* Add styles for the title */
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 28px;
+  max-height: 64px;
+  text-overflow: ellipsis;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+body.dark-mode .Vcard-title  {
+  color: #000;
+}
+
+.Vcard-image {
+  /* Add styles for the image container */
+  width: 100%;
+  height: 200px;
+  margin-right: 6%;
+  border: 1px solid #ccc;
+}
+
+.Vcard-image img {
+  /* Add styles for the image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 body.dark-mode .card-title {
@@ -471,10 +502,12 @@ body.dark-mode .tech-card  {
 
 
 
+/* CSS for the contact highlight */
 .highlight-text {
   position: relative;
   display: inline-block;
   padding-bottom: 8px; /* Add some space below the text for the underline */
+  transition: color 0.3s ease; /* Add a smooth transition effect for the color change */
 }
 
 .highlight-text::before {
@@ -484,7 +517,7 @@ body.dark-mode .tech-card  {
   left: 5px; /* Move it 3px to the left to start from the initial text's position */
   width: 100%; /* Add 3px to cover the text's width */
   height: 20px; /* Thicker vertically */
-  background-color: #FF715B;
+  background-color: #FF715B; /* Change the background color to #FF715B (the desired color) */
   transform-origin: bottom left;
   transform: scaleX(1); /* Initially shown */
   transition: transform 0.3s ease-out;
@@ -495,6 +528,14 @@ body.dark-mode .tech-card  {
   transform-origin: left; /* Compress from the right */
   transform: scaleX(0.33); /* Compress to 1/3 of the original width */
 }
+
+.highlight-text.active {
+  color: #FF0000; /* Change the text color to #FF715B (the desired color) */
+  -webkit-text-stroke: 2px #000; /* Add a 1px stroke around the text */
+}
+
+
+
 
 
 
@@ -519,7 +560,7 @@ body.dark-mode .tech-card  {
 
 .button-text {
   color: #FFF;
-  font-family: Montserrat, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 19.2px;
   font-style: normal;
   font-weight: 700;
@@ -551,15 +592,21 @@ body.dark-mode .button-frame  {
 .vertical-cards {
   display: flex;
   flex-direction: column;
+  gap: 10px; /* Adjust the gap between the two columns as needed */
   margin-left: 20px;
+  /* Style for the awards section */
+  flex: 1;
 }
 
 .vertical-cards .button-container {
   margin-top: 100px;
 }
 
-.projects {
-  
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 /* Styles for the bullet points */
@@ -640,21 +687,17 @@ body.dark-mode .button-frame  {
   gap: 10px; /* Adjust the gap between the two columns as needed */
 }
 
-/* Add a new class to the parent container for the awards and education sections */
-.awards-education-container {
-  display: flex;
-  gap: 10px; /* Adjust the gap between the two columns as needed */
-}
-
 /* Style for the awards section */
 .awards {
-  flex: 0 0 47%; /* Adjust the width of the awards section as needed */
+  flex: 1%; /* Adjust the width of the awards section as needed */
 }
 
 /* Style for the education section */
 .education {
-  flex: 0 0 47%; /* Adjust the width of the education section as needed */
+  flex: 1; /* Adjust the width of the education section as needed */
+  margin-right: 30px; /* Set the fixed margin on the right side of the education section */
 }
+
 
 /* Style for the bullet points */
 ul {
@@ -677,12 +720,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-/* Optional: Additional styles for h5 elements */
-h5 {
-  border-bottom: 2px solid #000;
-  padding-bottom: 4px;
 }
 
 
@@ -710,8 +747,9 @@ li.bullet {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #60A5FA;
+  background-color: #4D80A8;
   margin-right: 10px; /* Adjust the space between the circle and text */
+  margin-left: 20px;;
 }
 
 .bullet-text {
@@ -730,6 +768,28 @@ li.bullet {
   line-height: 28px; /* 155.556% */
 }
 
+body.dark-mode .bullet-text  {
+  color: #000;
+}
+
+body.dark-mode .header  {
+  color: #000;
+}
+
+body.dark-mode .year  {
+  color: #000;
+}
+
+body.dark-mode .description2  {
+  color: #000;
+}
+body.dark-mode .job-heading  {
+  color: #000;
+}
+body.dark-mode .job-description  {
+  color: #000;
+}
+
 /* General styles for the work experience section */
 .work-experience {
   font-family: Arial, sans-serif;
@@ -741,6 +801,7 @@ li.bullet {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 
@@ -757,7 +818,7 @@ li.bullet {
   width: 200.76px;
   height: 31px;
   flex-direction: column;
-  color: #313131;
+  color: #FFF;
   text-align: right;
   font-family: Inter;
   font-size: 22px;
@@ -803,7 +864,7 @@ li.bullet {
   height: 27px;
   flex-direction: column;
   justify-content: center;
-  color: #11ABB0;
+  color: #4D80A8;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -819,18 +880,20 @@ li.bullet {
 }
 
 .job-description {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-overflow: ellipsis;
+  font-family: Inter, sans-serif;
   display: flex;
   height: 80px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: #838C95;
-  font-family: Inter;
   font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 200% */
   text-align: justify;
-  max-width: calc(100% - 50px); /* Set max-width with a margin of 20px from the right */
+  max-width: calc(100% - 30px); /* Set max-width with a margin of 20px from the right */
 }
 
 
@@ -852,9 +915,10 @@ li.bullet {
   left: -12px; /* Adjust the horizontal position as needed */
   width: 40px;
   height: 40px;
-  background: #920000;
+  background: #4D80A8;
   border-radius: 50%;
-  z-index: -1; /* Place the circle behind the icon */
+  z-index: 1; /* Place the circle behind the icon */
+  margin-left: 20px;
 }
 
 /* Styles for the job icon */
@@ -864,16 +928,58 @@ li.bullet {
   height: 15px;
   fill: white;
   z-index: 1; /* Place the icon above the black circle */
+  margin-left: 20px;
 }
 
 /* Styles for the footer */
 .footer {
   display: flex;
-  padding: 32px ;
+  padding: 32px;
   justify-content: space-between;
   align-items: flex-start;
   background: #121E27;
 }
+
+/* Styles for the right section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Styles for the SVG icons */
+.right-section a {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  /* Add a transition for the fill property to create a smooth color change on hover */
+  transition: fill 0.3s ease;
+}
+
+
+
+
+
+/* Additional styles for the links text */
+.links {
+  margin-bottom: 16px;
+}
+
+/* Styles for the Get in touch text */
+.get-in-touch {
+  margin-bottom: 16px;
+  color: #C7C7C7;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 /* Styles for the left section */
 .left-section {
@@ -899,15 +1005,6 @@ li.bullet {
   line-height: 22.4px;
 }
 
-/* Styles for the footer */
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 32px;
-  justify-items: center;
-  align-items: flex-start;
-  background: #121E27;
-}
 
 /* Styles for the middle section */
 .middle-section {
@@ -940,41 +1037,14 @@ li.bullet {
   margin-bottom: 8px;
 }
 
-/* Styles for the Get in touch text */
-.get-in-touch {
-  margin-bottom: 16px;
-  color: #C7C7C7;
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+/* Styles for the spacer element */
+.spacer {
+  display: inline-block;
+  width: 13px; /* Adjust the width as needed */
 }
 
-/* Styles for the right section */
-.right-section {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: center;
-}
-
-
-
-
-/* Styles for the right section */
-.right-section {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: center; /* Align the content to the center */
-}
-
-
-/* Styles for the links text */
+/* Additional styles for the links text */
 .links {
   margin-bottom: 16px;
 }
@@ -991,15 +1061,7 @@ li.bullet {
 }
 
 
-/* Existing styles for other sections... */
 
-/* Styles for the right section */
-.right-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
 
 /* Styles for the pages */
 .pages {
@@ -1041,4 +1103,105 @@ li.bullet {
   list-style: none;
   padding: 0;
   gap: 16px;
+}
+/* Existing CSS styles... */
+
+/* Additional styles for the spacer element */
+.spacer {
+  display: inline-block;
+  width: 13px; /* Adjust the width as needed */
+}
+
+
+.contact {
+  margin: 0 0px 20px;
+}
+
+.contact form .space-y-4 > div {
+  margin-bottom: 0px; /* Reduce the vertical space between the email and message textboxes */
+}
+
+/* Styles for the "Send message" button */
+button {
+  display: inline-block;
+  background-color: #FF715B; /* Set the background color to black */
+  color: white; /* Set the text color to white */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add border-radius to create rounded corners */
+  font-size: 14px; /* Adjust font size as needed */
+  cursor: pointer;
+}
+
+form {
+  margin: 20px 20px 0 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Add some basic styles for the overlay */
+.overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  z-index: 9999;
+}
+
+
+body.dark-mode .contact input[type="email"],
+body.dark-mode .contact textarea {
+  box-shadow: inset 0 0 0 2px black;
+}
+
+
+
+
+
+
+
+
+
+/* Styles for the custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  background-color: #ffd5cf;
+}
+
+/* Create a pseudo-element for the entire scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #ffd5cf; /* Set the background color of the scrollbar track */
+  position: relative;
+}
+
+/* Add a vertical line on the right side of the scrollbar track */
+::-webkit-scrollbar-track::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #d2b3ae; /* Color of the vertical line */
+}
+
+/* Handle (the moving part) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #ff715b; /* Set the color of the scrollbar handle */
+  border-radius: 6px; /* Set the border radius to make it round */
+}
+
+/* On hover, set the color of the scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff8b7c; /* Change the color of the scrollbar handle on hover */
 }
