@@ -30,7 +30,7 @@ My name is Taka, an avid programmer currently immersed in the exciting world of 
 
 
 <a href="https://github.com/takatoshilee">
-<img height="165em" src="https://streak-stats.demolab.com?user=TakatoshiLee&theme=tokyonight-duo" />
+<img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=tokyonight-duo" />
 </a>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=TakatoshiLee&theme=tokyonight-duo)](https://git.io/streak-stats)
