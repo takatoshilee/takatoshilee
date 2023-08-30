@@ -31,15 +31,22 @@ I specialise in the MERN stack for full stack development (using frameworks like
 <b>My GitHub Stats</b>
 
 <p align="center">
-  <a href="https://github.com/TakatoshiLee">
-    <img height="165em" src="https://github-readme-stats-takatoshilee.vercel.app/api?username=TakatoshiLee&show_icons=true&theme=dracula&include_all_commits" />
+  <a href="https://github.com/takatoshilee">
+    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=takatoshilee&show_icons=true&theme=dracula" />
   </a>
   
-  <a href="https://github.com/TakatoshiLee">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatoshilee&layout=donut&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" />
+  <a href="https://github.com/takatoshilee">
+      <img height="165em" src="https://github-readme-stats-takatoshilee.vercel.app/api/top-langs/?username=takatoshilee&langs_count=8&layout=compact&theme=dracula" /> 
+  </a>
 </p>
+
+<a href="https://github.com/antoinekllee">
+    <img height="165em" src="https://github-readme-stats-antoinekllee.vercel.app/api/top-langs/?username=antoinekllee&langs_count=8&layout=compact&theme=dracula&exclude_repo=Archesis,The-Shadow-Crossing,Warlandia,Synergy-Interactive-Game" /> 
+  </a>
+</p>
+    
 <p align="center">
-    <a href="https://github.com/TakatoshiLee">
-    <img height="165em" src="https://streak-stats.demolab.com?user=TakatoshiLee&theme=dracula&card_width=550" />
+    <a href="https://github.com/takatoshilee">
+    <img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=dracula&card_width=550" />
   </a>
 </p>
