@@ -29,15 +29,15 @@ My name is Taka, an avid programmer currently immersed in the exciting world of 
 <b>My GitHub Stats</b>
 
 <p align="center">
-  <a href="https://github.com/takatoshilee">
-    <img height="165em" src="https://github-readme-stats-takatoshilee.vercel.app/api?username=antoinekllee&show_icons=true&theme=dracula&include_all_commits" />
+  <a href="https://github.com/TakatoshiLee">
+    <img height="165em" src="https://github-readme-stats-takatoshilee.vercel.app/api?username=TakatoshiLee&show_icons=true&theme=dracula&include_all_commits" />
   </a>
-  <a href="https://github.com/takatoshilee">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatoshilee&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" /> 
+  <a href="https://github.com/TakatoshiLee">
+    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TakatoshiLee&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" /> 
 
 </p>
 <p align="center">
-    <a href="https://github.com/takatoshilee">
-    <img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=dracula&card_width=550" />
+    <a href="https://github.com/TakatoshiLee">
+    <img height="165em" src="https://streak-stats.demolab.com?user=TakatoshiLee&theme=dracula&card_width=550" />
   </a>
 </p>
