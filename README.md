@@ -33,6 +33,7 @@ My name is Taka, an avid programmer currently immersed in the exciting world of 
 <img height="165em" src="https://streak-stats.demolab.com?user=TakatoshiLee&theme=tokyonight-duo" />
 </a>
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=TakatoshiLee&theme=tokyonight-duo)](https://git.io/streak-stats)
 
 <a href="http://www.github.com/takatoshilee"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=takatoshilee&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
