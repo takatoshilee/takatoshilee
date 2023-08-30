@@ -29,6 +29,7 @@ My name is Taka, an avid programmer currently immersed in the exciting world of 
 <b>My GitHub Stats</b>
 
 <a href="http://www.github.com/takatoshilee"><img src="https://github-readme-stats.vercel.app/api?username=takatoshilee&show_icons=true&hide=issues,&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="takatoshilee's GitHub stats" /></a>
+<b>My GitHub Stats</b>
 <a href="https://github.com/takatoshilee">
 <img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=dracula&card_width=550" />
 </a>
