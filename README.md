@@ -28,13 +28,16 @@ My name is Taka, an avid programmer currently immersed in the exciting world of 
 
 <b>My GitHub Stats</b>
 
+<p align="center">
+  <a href="https://github.com/takatoshilee">
+    <img height="165em" src="https://github-readme-stats-takatoshilee.vercel.app/api?username=antoinekllee&show_icons=true&theme=dracula&include_all_commits" />
+  </a>
+  <a href="https://github.com/TakatoshiLee">
+    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatoshilee&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" /> 
 
-<a href="https://github.com/takatoshilee">
-<img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=tokyonight-duo" />
-</a>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=TakatoshiLee&theme=tokyonight-duo)](https://git.io/streak-stats)
-
-<a href="http://www.github.com/takatoshilee"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=takatoshilee&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
-<a href="https://github.com/takatoshilee" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatoshilee&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+</p>
+<p align="center">
+    <a href="https://github.com/TakatoshiLee">
+    <img height="165em" src="https://streak-stats.demolab.com?user=antoinekllee&theme=dracula&card_width=550" />
+  </a>
+</p>
