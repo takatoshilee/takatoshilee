@@ -32,14 +32,13 @@ I specialise in the MERN stack for full stack development (using frameworks like
 
 <p align="center">
   <a href="https://github.com/takatoshilee">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=takatoshilee&show_icons=true&theme=dracula" />
+    <img height="165em" src="https://github-readme-stats-six-xi-24.vercel.app/api?username=takatoshilee&show_icons=true&theme=dracula" />
   </a>
   
   <a href="https://github.com/takatoshilee">
-      <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatoshilee&langs_count=8&layout=compact&theme=dracula" /> 
+      <img height="165em" src="https://github-readme-stats-six-xi-24.vercel.app/api/top-langs/?username=takatoshilee&langs_count=8&layout=compact&theme=dracula" /> 
   </a>
 </p>
-
     
 <p align="center">
     <a href="https://github.com/takatoshilee">
