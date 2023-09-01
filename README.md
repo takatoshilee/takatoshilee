@@ -27,16 +27,48 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
 * Work email: [tka767@gmail.com](mailto:tka767@gmail.com)
 * School email: [takatoshil@my.ofs.edu.sg](mailto:takatoshil@my.ofs.edu.sg)
 
-## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/competitive_programming_profile.png?raw=true" width=40> </picture> My Competitive Programming Profiles
+## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/competitive_programming_profile.png?raw=true" width=40> </picture> My Competitive Programming Profiles (ranked from highest to least usage)
+<div style="display: flex; align-items: center;">
+  <a href="https://codebreaker.xyz/profile/taka" style="text-decoration: none;">
+    <img src="https://codebreaker.xyz/static/logo.png" alt="Code Breaker" style="width: 15px; margin-right: 10px;"/>
+  </a>
+  <span>CodeBreaker</span>
+  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+</div>
 
-<p align="center">
- <a href="https://codebreaker.xyz/profile/taka"><img src="https://codebreaker.xyz/static/logo.png " alt="Code Breaker"/></a>
- <a href="https://codeforces.com/profile/Taka119"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" alt="Code Forces"/></a>
-	<a href="https://leetcode.com/tka767/"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode"/></a>
-	<a href="https://atcoder.jp/users/Taka119"><img src="https://i.ibb.co/Q9WSjDB/logo.png" alt="AtCoder" width = 60px/></a>
-	<a href="https://www.codingame.com/profile/ddba4f80f13721f3f60135e4a94dd55c7868115" ><img src="https://i.ibb.co/1MRppTC/codingame-1.png" alt="Codingame" width="100" height="50">
+<div style="display: flex; align-items: center;">
+  <a href="https://codeforces.com/profile/Taka119" style="text-decoration: none;">
+    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" alt="Code Forces" style="width: 15px; margin-right: 10px;"/>
+  </a>
+  <span>Code Forces</span>
+  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <a href="https://atcoder.jp/users/Taka119" style="text-decoration: none;">
+    <img src="https://i.ibb.co/Q9WSjDB/logo.png" alt="AtCoder" style="width: 15px; margin-right: 10px;"/>
+  </a>
+  <span>AtCoder</span>
+  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <a href="https://leetcode.com/tka767" style="text-decoration: none;">
+    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" style="width: 15px; margin-right: 10px;"/>
+  </a>
+  <span>LeetCode</span>
+  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <a href="https://www.codingame.com/profile/ddba4f80f13721f3f60135e4a94dd55c7868115" style="text-decoration: none;">
+    <img src="https://i.ibb.co/1MRppTC/codingame-1.png" alt="AtCoder" style="width: 15px; margin-right: 10px;"/>
+  </a>
+  <span>CodingGame</span>
+  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+</div>
+
 		
-</p>
 
 ## Badges
 
