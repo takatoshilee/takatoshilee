@@ -1,0 +1,26 @@
+name: Todoist Readme
+
+on:
+  push:
+    branches:
+      - main  # Change this to the appropriate branch name
+
+jobs:
+  update-readme:
+    name: Update todoist stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: abhisheknaiidu/todoist-readme@master
+        with:
+          TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
+          PREMIUM: ""
+      - name: Configure Git
+        run: |
+          git config --global user.email "takatoshil@my.ofs.edu.sg"
+          git config --global user.name "takatoshilee"
+      - name: Commit and Push Changes
+        run: |
+          git add README.md
+          git commit -m "Update Todoist stats"
+          git push origin main  # Change this to the appropriate branch name
