@@ -640,7 +640,6 @@ body.dark-mode .button-frame  {
 
 .header {
   display: flex;
-  width: 282.11px;
   height: 21px;
   flex-direction: column;
   justify-content: center;
@@ -701,13 +700,14 @@ body.dark-mode .button-frame  {
 
 /* Style for the bullet points */
 ul {
-  padding-left: 20px;
+  padding-left: 0;
   list-style-type: none;
 }
 
 li.bullet {
-  word-wrap: break-word; /* Ensures long words wrap instead of overflow */
-  max-width: 100%; /* Set a maximum width for the li element */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 /* Ensure text inside the .section class wraps */
@@ -722,7 +722,6 @@ body {
   padding: 0;
 }
 
-
 .description2 {
   flex-shrink: 0;
   color: #FFF;
@@ -734,28 +733,20 @@ body {
   text-align: justify;
 }
 
-
-li.bullet {
-  display: flex;
-  align-items: center; /* Vertically center the content */
-  margin-bottom: 10px; /* Add some spacing between bullet points */
-}
-
+/* Remove the margin-left property from .bullet-circle */
 .bullet-circle {
-  /* Bullet point circle styles */
   flex-shrink: 0;
   width: 5px;
   height: 5px;
   border-radius: 50%;
   background-color: #4D80A8;
-  margin-right: 10px; /* Adjust the space between the circle and text */
-  margin-left: 20px;;
+  margin-right: 10px;
+  /* margin-left: 20px; Remove this line */
 }
 
 .bullet-text {
   /* Styles for the "THIS TEXT" */
   display: flex;
-  width: 282.11px;
   height: 21px;
   flex-direction: column;
   justify-content: center;
