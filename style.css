@@ -700,15 +700,17 @@ body.dark-mode .button-frame  {
 
 /* Style for the bullet points */
 ul {
-  padding-left: 0;
+  padding-left: 20px;
   list-style-type: none;
 }
 
 li.bullet {
-  display: flex;
-  align-items: center;
+  word-wrap: break-word;
+  max-width: 100%;
+  display: block; /* Change this to display: block; */
   margin-bottom: 10px;
 }
+
 
 /* Ensure text inside the .section class wraps */
 .section {
@@ -733,15 +735,14 @@ body {
   text-align: justify;
 }
 
-/* Remove the margin-left property from .bullet-circle */
 .bullet-circle {
+  /* Bullet point circle styles */
   flex-shrink: 0;
   width: 5px;
   height: 5px;
   border-radius: 50%;
   background-color: #4D80A8;
   margin-right: 10px;
-  /* margin-left: 20px; Remove this line */
 }
 
 .bullet-text {
