@@ -41,7 +41,7 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
     <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" alt="Code Forces" style="width: 15px; margin-right: 10px;"/>
   </a>
   <span>Code Forces</span>
-  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+  <span style="color: #888; font-weight: lighter;"> - Most famous competitive programming website </span>
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -49,7 +49,7 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
     <img src="https://i.ibb.co/Q9WSjDB/logo.png" alt="AtCoder" style="width: 15px; margin-right: 10px;"/>
   </a>
   <span>AtCoder</span>
-  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+  <span style="color: #888; font-weight: lighter;"> - Japanese Informatics Olympiad Host </span>
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -57,7 +57,7 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
     <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" style="width: 15px; margin-right: 10px;"/>
   </a>
   <span>LeetCode</span>
-  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+  <span style="color: #888; font-weight: lighter;"> - General Competitive Programming Website </span>
 </div>
 
 <div style="display: flex; align-items: center;">
@@ -65,7 +65,7 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
     <img src="https://i.ibb.co/1MRppTC/codingame-1.png" alt="AtCoder" style="width: 15px; margin-right: 10px;"/>
   </a>
   <span>CodingGame</span>
-  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+  <span style="color: #888; font-weight: lighter;"> - Gamified Competitive Programming Website (Easy Questions) </span>
 </div>
 
 		
