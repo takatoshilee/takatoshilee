@@ -33,7 +33,7 @@ n the exciting world of AI development! 🦾 I am also deeply passionate about q
     <img src="https://codebreaker.xyz/static/logo.png" alt="Code Breaker" style="width: 15px; margin-right: 10px;"/>
   </a>
   <span>CodeBreaker</span>
-  <span style="color: #888; font-weight: lighter;"> - NOI Questions </span>
+  <span style="color: #888; font-weight: lighter;"> - Singapore's National Olympiad Questions </span>
 </div>
 
 <div style="display: flex; align-items: center;">
