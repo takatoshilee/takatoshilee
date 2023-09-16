@@ -4,7 +4,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Taka
 ============================================================================================================================
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=11x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU"></a>
 </p>
 
 Software Engineering, AI & Quant Enthusiast
