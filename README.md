@@ -1,17 +1,18 @@
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+[![MasterHead](https://user-images.githubusercontent.com/86270481/214122618-1bf43327-cdef-456e-81fe-fc71a9070c07.gif)](https://angelao25.io)
+<h1 align="center">Hello 👋, I'm Takatoshi Lee</h1>
+<h3 align="center">Software Engineering, AI & Quant Enthusiast</h3>
+<img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFmYWMwMzEzYTVkNjAzZGFmODY4NGJjODAyZGQxY2E1MWE4ZDFhNyZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif">
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Taka
-============================================================================================================================
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=takatoshilee&label=Profile%20views&color=0e75b6&style=flat" alt="takatoshilee" /> </p>
+
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU"></a>
 </p>
 
-Software Engineering, AI & Quant Enthusiast
+
 -------------------------------------------
 
-My name is Taka, an avid programmer currently immersed i
-n the exciting world of AI development! 🦾 I am also deeply passionate about quant finance, artificial intelligence, deep learning, machine learning, computer vision and full stack development, and always eager to explore new technologies and push the boundaries of what's possible. I believe that everyone — not just highly trained computer scientists and engineers at large tech companies — should have the opportunity to build AI systems for themselves - I'm currently working on a website called RepSense, Your all-in-one fitness companion powered by YOLO and OpenCV, tracking reps and perfecting exercise form wherever you work out.
+My name is Taka, an avid programmer currently immersed in the exciting world of AI development! 🦾 I am also deeply passionate about quant finance, artificial intelligence, deep learning, machine learning, computer vision and full stack development, and always eager to explore new technologies and push the boundaries of what's possible. I believe that everyone — not just highly trained computer scientists and engineers at large tech companies — should have the opportunity to build AI systems for themselves - I'm currently working on a website called RepSense, Your all-in-one fitness companion powered by YOLO and OpenCV, tracking reps and perfecting exercise form wherever you work out.
 
 👉🏼 ***Feel free to follow me on [LinkedIn: Takatoshi Lee @ OFS](https://www.linkedin.com/in/takatoshilee) to stay updated with my latest AI learning resources.***
 
