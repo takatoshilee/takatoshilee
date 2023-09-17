@@ -183,3 +183,15 @@ I specialise in the MERN stack for full stack development (using frameworks like
   <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
        alt="snake" /></a>
 </div>
+
+
+<!--- snake -->
+<div align="center" style="transform: rotate(90deg);">
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
+       alt="snake" />
+</div>
+
+<div align="center" >
+  <img src="https://www.kapwing.com/w/_goAuM8tEe"
+       alt="snake" />
+</div>
