@@ -1,10 +1,13 @@
 [![MasterHead](https://user-images.githubusercontent.com/86270481/214122618-1bf43327-cdef-456e-81fe-fc71a9070c07.gif)](https://github.com/takatoshilee)
-<h1 align="center">Hello 👋, I'm Takatoshi Lee aka Taka</h1>
+<h1 align="center">Hello 👋, I'm Takatoshi Lee, but call me Taka</h1>
 
 <h3>Software Engineering, AI & Quant Enthusiast</h3>
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=takatoshilee&label=Profile%20views&color=0e75b6&style=flat" alt="takatoshilee" />
 </p>
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif" alt="Coding" width="400">
+
 * 🌍  I'm based in `Singapore`
 * 🖥️  See my portfolio at [Personal Website Portfolio](http://takatoshilee.github.io/)
 * ✉️  You can contact me at [tka767@gmail.com](mailto:tka767@gmail.com)
