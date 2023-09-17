@@ -22,18 +22,38 @@
 
 👉🏼 ***Feel free to follow me on [LinkedIn: Takatoshi Lee @ OFS](https://www.linkedin.com/in/takatoshilee) to stay updated with my latest AI learning resources.***
 
-
-<h3 align="left">Connect with me:</h3>
+## 🤝 Connect with me:
 <p align="left">
 <a href="https://www.linkedin.com/in/takatoshilee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="takatoshilee" height="30" width="40" /></a>
 <a href="https://instagram.com/takatoshilee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="takatoshilee" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/TakatoshiLee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="TakatoshiLee" height="30" width="40" /></a>
-<a href="https://www.dev.to/taka119" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" alt="taka119" height="30" width="40" />
+<a href="https://www.dev.to/taka119" target="blank"><img align="center" src="https://skillicons.dev/icons?i=devto" alt="taka119" height="30" width="40" />
 </a>
 <a href="https://discord.com/users/taka119" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" alt="taka119" height="30" width="40" />
 </a>
 <a href="https://www.youtube.com/@takatoshilee9703" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" alt="taka119" height="30" width="40" />
 </a>
+
+## 🔧 Technologies & Tools
+
+I specialise in the MERN stack for full stack development (using frameworks like nextjs or gatsby). However, I'm always eager to learn and adapt to new technologies when needed. You'll also find me working with TypeScript, Java, Swift, Python for AI and ML and more!
+<!--tech stack icons-->
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma,xd" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://skillicons.dev/icons?i=bootstrap,css,html,js,express,react,tailwind" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,python" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,neovim,vim" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://skillicons.dev/icons?i=ai,pytorch,tensorflow" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://skillicons.dev/icons?i=latex" />
+  </a>
+</p>
+
 
 ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/competitive_programming_profile.png?raw=true" width=40> </picture> My Competitive Programming Profiles (ranked from highest to least usage)
 <div style="display: flex; align-items: center;">
@@ -136,32 +156,6 @@
 </p>
 
 
-
-## 🔧 Technologies & Tools
-
-I specialise in the MERN stack for full stack development (using frameworks like nextjs or gatsby). However, I'm always eager to learn and adapt to new technologies when needed. You'll also find me working with TypeScript, Java, Swift, Python for AI and ML and more!
-<!--tech stack icons-->
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=figma,xd" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=bootstrap,css,html,js,express,react,tailwind" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,js,python" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,neovim,vim" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=aws" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=ai,pytorch,tensorflow" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=latex" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=autocad,raspberrypi" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://skillicons.dev/icons?i=devto,discord,stackoverflow" />
-  </a>
-</p>
 
 
 
