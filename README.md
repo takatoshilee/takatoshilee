@@ -1,4 +1,4 @@
-[![MasterHead](https://user-images.githubusercontent.com/86270481/214122618-1bf43327-cdef-456e-81fe-fc71a9070c07.gif)](https://angelao25.io)
+[![MasterHead](https://user-images.githubusercontent.com/86270481/214122618-1bf43327-cdef-456e-81fe-fc71a9070c07.gif)](https://github.com/takatoshilee)
 <h1 align="center">Hello 👋, I'm Takatoshi Lee aka Taka</h1>
 
 <h3>Software Engineering, AI & Quant Enthusiast</h3>
