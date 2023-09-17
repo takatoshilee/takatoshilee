@@ -134,7 +134,7 @@ I specialise in the MERN stack for full stack development (using frameworks like
 
 <td width="50%" align="center">
 
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=takatoshilee&theme=dracula&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
+  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=takatoshilee&theme=dracula&hide_border=false&no-bg=true&no-frame=true&langs_count=7"/>
   
   </td>
 </tr>
