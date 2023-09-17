@@ -18,8 +18,8 @@
 * 🚀  I'm currently working on [RepSense](http://takatoshilee.github.io/RepSense/)
 * 🧠  I'm learning the `MERN` stack
 * 🤝  I'm open to collaborating on software engineering, AI, and quant projects.
-<!--* 🏆  `Singapore National Olympiad's` Finalist.
-* 👨🏻‍💻  I love using Software as a solution for every `Problem`.
+* 🏆  `Singapore National Olympiad's` Finalist.
+<!--* 👨🏻‍💻  I love using Software as a solution for every `Problem`.
 * 💻  I am a competitive programmer at `Codebreaker`, `Codeforces`, `Atcoder`, `Leetcode`. -->
 * I believe that everyone — not just highly trained computer scientists and engineers at large tech companies — should have the opportunity to build AI systems for themselves
 * I'm currently working on a website called RepSense, Your all-in-one fitness companion powered by YOLO and OpenCV, tracking reps and perfecting exercise form wherever you work out.
@@ -199,3 +199,111 @@ I specialise in the MERN stack for full stack development (using frameworks like
   <img src="https://www.kapwing.com/w/_goAuM8tEe"
        alt="snake" />
 </div>
+
+
+
+
+
+<p align="center">
+  <a href="https://github.com/takatoshilee">
+    <img height="165em" src="https://github-readme-stats-six-xi-24.vercel.app/api?username=takatoshilee&show_icons=true&theme=dracula" />
+  </a>
+  
+  <a href="https://github.com/takatoshilee">
+      <img height="165em" src="https://github-readme-stats-six-xi-24.vercel.app/api/top-langs/?username=takatoshilee&langs_count=8&layout=compact&theme=dracula" /> 
+  </a>
+</p>
+    
+<p align="center">
+    <a href="https://github.com/takatoshilee">
+    <img height="165em" src="https://streak-stats.demolab.com?user=takatoshilee&theme=dracula&card_width=550" />
+  </a>
+</p>
+
+
+
+
+
+
+
+<p style="display: inline-block;" align="center">
+  <kbd>
+    <kbd>Front-end</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> 
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> 
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /> 
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  </kbd>
+  <kbd>
+    <kbd>Back-end</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+  </kbd>
+  <kbd>
+    <kbd>Library/FrameWorks</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+  </kbd>
+  <br>
+  <kbd>
+    <kbd>Apps</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
+  </kbd>
+  <kbd>
+    <kbd>Terminal Scripts</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+  </kbd>
+  <kbd>
+    <kbd>Tools</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+    <img width="30px" src="https://github.com/termux/termux-app/raw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+    <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/512px-Repl.it_logo.svg.png">
+  </kbd>
+  <kbd>
+    <kbd>OS</kbd>
+    <br>
+    <br>
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+  </kbd>
+</p>
+
+
+
+<!--- trophy (start) -->
+<div align=center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+    </a>
+</div>
+
+
+<h2 align="center"><u>My Github Stats</u></h2>
+<p align="center">
+<a href="https://github.com/takatoshilee/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/user?user=takatoshilee&layout=compact&theme=monokai"/></a>
+<a href="https://github.com/takatoshilee/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/lang?user=takatoshilee&layout=compact&type=donut&theme=gruvbox&minimum=0.1"/></a>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=takatoshilee&theme=dracula">
+<img src="https://metrics.lecoq.io/takatoshilee?template=classic&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&config.timezone=Asia%2FDhaka">
+<img src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=onedark&title=MultiLanguage,Stars,Commit,Followers,Repo,PR">
+</p>
