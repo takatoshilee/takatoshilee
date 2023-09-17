@@ -2,16 +2,18 @@
 <h1 align="center">Hello 👋, I'm Takatoshi Lee</h1>
 
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h3>Software Engineering, AI & Quant Enthusiast</h3>
-  </div>
-  <div style="flex-grow: 1; text-align: right;">
-    <a href="https://github.com/DenverCoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU">
-    </a>
-  </div>
-</div>
+<table width="100%" border="0">
+  <tr>
+    <td>
+      <h3>Software Engineering, AI & Quant Enthusiast</h3>
+    </td>
+    <td align="right">
+      <p align="left" style="float: right;">
+        <img src="https://komarev.com/ghpvc/?username=takatoshilee&label=Profile%20views&color=0e75b6&style=flat" alt="takatoshilee" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -21,25 +23,15 @@
 
 
 
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
-    <h1>Hello 👋, I'm Takatoshi Lee</h1>
-    <h3>Software Engineering, AI & Quant Enthusiast</h3>
-  </div>
-  <div>
-    <a href="https://github.com/DenverCoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU">
-    </a>
-  </div>
-</div>
-
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+	<img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU">
+</a>
 
 
 
 <img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFmYWMwMzEzYTVkNjAzZGFmODY4NGJjODAyZGQxY2E1MWE4ZDFhNyZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=takatoshilee&label=Profile%20views&color=0e75b6&style=flat" alt="takatoshilee" /> </p>
+
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=1x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU"></a>
