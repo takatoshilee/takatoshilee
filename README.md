@@ -1,6 +1,10 @@
 [![MasterHead](https://user-images.githubusercontent.com/86270481/214122618-1bf43327-cdef-456e-81fe-fc71a9070c07.gif)](https://github.com/takatoshilee)
 <h1 align="center">Hello 👋, I'm Takatoshi Lee, but call me Taka</h1>
 
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23C8BE25&size=25&center=true&vCenter=true&width=600&height=100&lines=11x+National+Olympiad+Informatics+Finalist;Aspiring+Computer+Science+Student;Competitive+Programmer;Expert+on+Codeforces;MLDA+Hackathon+Finalist+@NTU"></a>
+</p>
+
 <h3>Software Engineering, AI & Quant Enthusiast</h3>
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=takatoshilee&label=Profile%20views&color=0e75b6&style=flat" alt="takatoshilee" />
