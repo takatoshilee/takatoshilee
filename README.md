@@ -9,21 +9,31 @@
 <img align="right" src="https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif" alt="Coding" width="400">
 
 * 🌍  I'm based in `Singapore`
-* 🖥️  See my portfolio at [Personal Website Portfolio](http://takatoshilee.github.io/)
+* 🖥️  See my portfolio @ [Personal Website Portfolio](http://takatoshilee.github.io/)
 * ✉️  You can contact me at [tka767@gmail.com](mailto:tka767@gmail.com)
 * 🚀  I'm currently working on [RepSense](http://takatoshilee.github.io/RepSense/)
 * 🧠  I'm learning the `MERN` stack
 * 🤝  I'm open to collaborating on software engineering, AI, and quant projects.
-* 🏆  `Singapore National Olympiad's` Finalist.
+<!--* 🏆  `Singapore National Olympiad's` Finalist.
 * 👨🏻‍💻  I love using Software as a solution for every `Problem`.
-* 💻  I am a competitive programmer at `Codebreaker`, `Codeforces`, `Atcoder`, `Leetcode`.
+* 💻  I am a competitive programmer at `Codebreaker`, `Codeforces`, `Atcoder`, `Leetcode`. -->
 * I believe that everyone — not just highly trained computer scientists and engineers at large tech companies — should have the opportunity to build AI systems for themselves
 * I'm currently working on a website called RepSense, Your all-in-one fitness companion powered by YOLO and OpenCV, tracking reps and perfecting exercise form wherever you work out.
 
-
-
 👉🏼 ***Feel free to follow me on [LinkedIn: Takatoshi Lee @ OFS](https://www.linkedin.com/in/takatoshilee) to stay updated with my latest AI learning resources.***
 
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://www.linkedin.com/in/takatoshilee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="takatoshilee" height="30" width="40" /></a>
+<a href="https://instagram.com/takatoshilee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="takatoshilee" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/TakatoshiLee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="TakatoshiLee" height="30" width="40" /></a>
+<a href="https://www.dev.to/taka119" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" alt="taka119" height="30" width="40" />
+</a>
+<a href="https://discord.com/users/taka119" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" alt="taka119" height="30" width="40" />
+</a>
+<a href="https://www.youtube.com/@takatoshilee9703" target="blank"><img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" alt="taka119" height="30" width="40" />
+</a>
 
 ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/competitive_programming_profile.png?raw=true" width=40> </picture> My Competitive Programming Profiles (ranked from highest to least usage)
 <div style="display: flex; align-items: center;">
