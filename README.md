@@ -294,16 +294,11 @@ I specialise in the MERN stack for full stack development (using frameworks like
 <!--- trophy (start) -->
 <div align=center>
   <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=4&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
     </a>
 </div>
 
 
-<h2 align="center"><u>My Github Stats</u></h2>
-<p align="center">
-<a href="https://github.com/takatoshilee/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/user?user=takatoshilee&layout=compact&theme=monokai"/></a>
-<a href="https://github.com/takatoshilee/github-stats-card" alt="github-stats-card"><img src="https://kasroudra-stats-card.onrender.com/lang?user=takatoshilee&layout=compact&type=donut&theme=gruvbox&minimum=0.1"/></a>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=takatoshilee&theme=dracula">
-<img src="https://metrics.lecoq.io/takatoshilee?template=classic&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&config.timezone=Asia%2FDhaka">
+
 <img src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=onedark&title=MultiLanguage,Stars,Commit,Followers,Repo,PR">
 </p>
