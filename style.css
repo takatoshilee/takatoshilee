@@ -609,21 +609,10 @@ body.dark-mode .button-frame  {
   margin-top: 20px;
 }
 
-/* Styles for the bullet points */
-.bullet {
-  /* Remove these styles as they are not needed for the <li> element */
-  /* width: 282.11px; */
-  /* height: 21px; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* flex-shrink: 0; */
-  color: #FFF;
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 155.556% */
-  margin: 10px 0 0 20px; /* 100px from the top, centered horizontally */
+li.bullet {
+  display: block;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 /* Make the text inside the <li> white */
@@ -705,9 +694,8 @@ ul {
 }
 
 li.bullet {
-  word-wrap: break-word;
   max-width: 100%;
-  display: block; /* Change this to display: block; */
+  display: flex; /* Change this to display: block; */
   margin-bottom: 10px;
 }
 
@@ -743,11 +731,13 @@ body {
   border-radius: 50%;
   background-color: #4D80A8;
   margin-right: 10px;
+  display: inline-block; /* Make the bullet circles inline */
 }
 
 .bullet-text {
   /* Styles for the "THIS TEXT" */
-  display: flex;
+  display: inline-block; /* Make the text inline */
+  max-width: calc(100% - 15px); /* Adjust this value to leave space for the bullet circle */
   height: 21px;
   flex-direction: column;
   justify-content: center;
@@ -756,8 +746,11 @@ body {
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 28px; /* 155.556% */
+  margin-left: 0; /* Remove margin to align text with the circle */
+  word-wrap: break-word; /* Allow long words to wrap to the next line */
+  max-width: 100%;
 }
 
 body.dark-mode .bullet-text  {
