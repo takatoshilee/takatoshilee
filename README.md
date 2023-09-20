@@ -115,7 +115,7 @@ I specialise in the MERN stack for full stack development (using frameworks like
   <tr>
     <td>
       <a href="https://github.com/takatoshilee">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=takatoshilee&theme=dracula" alt="Al Siam's GitHub Contribution" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=takatoshilee&theme=dracula" alt="Taka's GitHub Contribution" />
 	</a>	
     </td>
     <td>
@@ -134,6 +134,12 @@ I specialise in the MERN stack for full stack development (using frameworks like
   <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=takatoshilee&theme=dracula&show_icons=true&count_private=true" />
   <br></br>
   <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=takatoshilee&theme=dracula&hide_border=false" /> 
+<!--- trophy (start) -->
+<div align=center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=4&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+    </a>
+</div>
 </td>
 
 <td width="50%" align="center">
