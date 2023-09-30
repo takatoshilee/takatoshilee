@@ -131,32 +131,35 @@ I specialise in the MERN stack for full stack development (using frameworks like
 <table align="center">
 <tr border="none">
 <td width="50%" align="center">
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=takatoshilee&theme=dracula&show_icons=true&count_private=true" />
-  <br></br>
   <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=takatoshilee&theme=dracula&hide_border=false" /> 
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=4&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
 </td>
 
 <td width="50%" align="center">
 
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=takatoshilee&theme=dracula&hide_border=false&no-bg=true&no-frame=true&langs_count=7"/>
-  
+  <a href="https://github.com/takatoshilee">
+      <img height="165em" src="https://github-readme-stats-six-xi-24.vercel.app/api/top-langs/?username=takatoshilee&langs_count=8&layout=compact&theme=dracula" /> 
+  </a>
   </td>
 </tr>
 </table>
 <!--- stats (end) -->
 
-## My best repositories:
 
-<p align="center">
-<a href="https://github.com/odinghosh/MLDA_Hackathon"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=odinghosh&repo=MLDA_Hackathon&show_icons=true&theme=dracula&show_owner=true" alt="Student Tiredness Measurer" width="49.5%"> </a>
-<a href="https://github.com/shashwatb14/plantCare"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=shashwatb14&repo=plantCare&show_icons=true&theme=dracula&show_owner=true" alt="Automated Plant Watering System" width="49.5%"> </a>
-</p>
+<table style="width: 100%;">
+  <tr>
+    <td>
+      	<div align=center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=takatoshilee&theme=radical&row=1&column=4&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+    </a>
+	</div>
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+</table>
+<!--- trophy (start) -->
 
 ## I've also contributed in:
 
@@ -167,31 +170,5 @@ I specialise in the MERN stack for full stack development (using frameworks like
 
 
 
-
-
-
-
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=takatoshilee&rank=A,AA&theme=dracula&column=2)](https://github.com/ryo-ma/github-profile-trophy)
-
-	
-
-
-# Todoist Stats
-
-<!-- TODO-IST:START -->
-<!-- TODO-IST:END -->
-
-
-
-<!--- snake -->
-<div align="center">
-  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
-       alt="snake" /></a>
-</div>
 
 
