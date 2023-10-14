@@ -7,6 +7,8 @@
   </head>
 <body>
   <div class="background-box">
+    <!-- Custom cursor -->
+  <div class="custom-cursor"></div>
     <nav class="navbar">
       <div class="navbar-left">
         <span class="logo">Takatoshi Lee</span>
@@ -370,7 +372,33 @@
   modeButton.addEventListener('click', toggleDarkMode);
 
   document.addEventListener("DOMContentLoaded", function() {
-      console.log("DOMContentLoaded event fired.");
+      
+    
+    console.log("DOMContentLoaded event fired.");
+    
+
+    const cursor = document.querySelector('.custom-cursor');
+
+    // Initialize cursor position
+    document.addEventListener('mousemove', function (e) {
+      updateCursorPosition(e);
+    });
+
+    // Ensure cursor is visible initially
+    cursor.style.opacity = '1';
+
+    // Update cursor position on mouse move
+    document.addEventListener('mousemove', function (e) {
+      updateCursorPosition(e);
+    });
+
+    // Function to update cursor position
+    function updateCursorPosition(e) {
+      const { pageX, pageY } = e;
+      cursor.style.left = `${pageX}px`;
+      cursor.style.top = `${pageY}px`;
+    }
+
 
       // Get the "Contact" link in the navbar and the contact heading
       const contactLink = document.getElementById("contact-link");
@@ -408,7 +436,13 @@
           contactHeading.classList.remove("active");
           console.log("active class removed from contactHeading:", contactHeading.classList);
         }, timeoutDuration);
+
+
+        
       });
+
+
+
     });
 
 

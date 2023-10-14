@@ -8,9 +8,20 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #121E27;
+  cursor: none; /* Hide the default cursor */
+  z-index: 9999; /* Make sure it's above other elements */
 }
 
-
+.custom-cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FF715B; /* Set the desired color */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with mouse events on other elements */
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-out; /* Add a smooth transition effect */
+}
 
 .navbar {
   display: flex;
@@ -705,12 +716,7 @@ li.bullet {
   word-wrap: break-word;
 }
 
-/* Additional styles for consistency */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 
 .description2 {
   flex-shrink: 0;
