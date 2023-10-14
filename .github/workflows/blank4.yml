@@ -1,0 +1,29 @@
+name: My Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+
+      - name: Perform actions with token
+        run: |
+          # Example commands that require authentication
+          git pull origin main
+          git add .
+          git commit -m "Automated commit"
+          git push origin main
+        env:
+          PAT: ${{ secrets.PAT }}
