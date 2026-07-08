@@ -3,7 +3,7 @@
 cs @ university of toronto. i build full-stack and LLM systems, then measure whether they actually work.
 
 - now: LLM guardrails research at prof. chechik's lab, a platform where law students verify AI-extracted rules from case law
-- prev: swe intern @ amicare (react native home-care marketplace) and alcon (python analytics, fortune 500)
+- prev: software developer intern @ amicare (react native home-care marketplace), data analyst intern @ alcon (python analytics, fortune 500)
 - some things i've made:
   - [job radar](https://github.com/takatoshilee/feed-pipeline) watches 300+ company job boards and pings me the minute something good goes live
   - [dancesync](https://github.com/takatoshilee/DanceSync) scores your dancing against a reference video, joint by joint
